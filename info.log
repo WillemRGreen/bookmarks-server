@@ -2,3 +2,4 @@
 {"message":"Bookmark with id of 0ea86732-953d-40bc-87d8-827b1890e913 created","level":"info"}
 {"message":"Bookmark with id 0ea86732-953d-40bc-87d8-827b1890e913 deleted.","level":"info"}
 {"message":"Bookmark with id of f17385a3-63e2-42fb-99e4-5cbadea6bd4b created","level":"info"}
+{"message":"url is not valid","level":"error"}

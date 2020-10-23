@@ -1,11 +1,11 @@
-const express = require('express')
-const { v4: uuid } = require('uuid')
-const logger = require('../logger')
-const { bookmarks } = require('../store')
-const validUrl = require('valid-url')
+const express = require('express');
+const { v4: uuid } = require('uuid');
+const logger = require('../logger');
+const { bookmarks } = require('../store');
+const validUrl = require('valid-url');
 
-const bookmarksRouter = express.Router()
-const bodyParser = express.json()
+const bookmarksRouter = express.Router();
+const bodyParser = express.json();
 
 bookmarksRouter
     .route('/bookmarks')

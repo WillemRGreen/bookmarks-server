@@ -1,6 +1,6 @@
 const express = require('express');
 const { v4: uuid } = require('uuid');
-const logger = require('../logger');
+const logger = require('../logger.js');
 const { bookmarks } = require('../store');
 const validUrl = require('valid-url');
 
